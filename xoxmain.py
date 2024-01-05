@@ -11,12 +11,12 @@ for i in range(9):
 
     if (xox[0] == "X" and xox[3] == "X" and xox[6] == "X" or xox[1] == "X" and xox[4] == "X" and xox[7] == "X" or xox[
         2] == "X" and xox[5] == "X" and xox[8] == "X" or xox[0] == "X" and xox[4] == "X" and xox[8] == "X" or xox[
-        2] == "X" and xox[4] == "X" and xox[6] == "X"):
+        2] == "X" and xox[4] == "X" and xox[6] == "X" or xox[0] == "X" and xox[1] == "X" and xox[2] == "X" or xox[3] == "X" and xox[4] == "X" and xox[5] == "X" or xox[6] == "X" and xox[7] == "X" and xox[8] == "X"):
         print("X oyuncusu kazandı")
         break
     elif (xox[0] == "O" and xox[3] == "O" and xox[6] == "O" or xox[1] == "O" and xox[4] == "O" and xox[7] == "O" or xox[
         2] == "O" and xox[5] == "O" and xox[8] == "O" or xox[0] == "O" and xox[4] == "O" and xox[8] == "O" or xox[
-              2] == "O" and xox[4] == "O" and xox[6] == "O"):
+              2] == "O" and xox[4] == "O" and xox[6] == "O" or xox[0] == "O" and xox[1] == "O" and xox[2] == "O" or xox[3] == "O" and xox[4] == "O" and xox[5] == "O" or xox[6] == "O" and xox[7] == "O" and xox[8] == "O"):
         print("O oyuncusu kazandı")
         break
     elif (i == 8):
